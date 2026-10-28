@@ -1,0 +1,394 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7ff;
+    color: #252b42;
+    line-height: 1.7;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #252b42;
+    color: white;
+    padding: 15px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #a9b8ff;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a9b8ff;
+}
+
+/* Common Sections */
+section {
+    padding: 70px 10%;
+    scroll-margin-top: 80px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #252b42;
+    margin-bottom: 30px;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #6675e8;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Home Section */
+.home {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #eef0ff, #ffffff);
+}
+
+.welcome {
+    color: #6675e8;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.home h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.home h1 span {
+    color: #6675e8;
+}
+
+.home h3 {
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    color: #6675e8;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 700px;
+    margin-bottom: 25px;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #6675e8;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #6675e8;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4b59c7;
+    border-color: #4b59c7;
+    transform: translateY(-2px);
+}
+
+.resume-btn {
+    background-color: transparent;
+    color: #6675e8;
+}
+
+.resume-btn:hover {
+    color: white;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+}
+
+#about p {
+    max-width: 850px;
+    margin: 12px auto;
+    text-align: center;
+}
+
+/* Education */
+.education-container {
+    display: flex;
+    justify-content: center;
+}
+
+.education-card {
+    width: 100%;
+    max-width: 650px;
+    background-color: white;
+    padding: 25px;
+    border-left: 5px solid #6675e8;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(37, 43, 66, 0.08);
+}
+
+.education-card h3 {
+    color: #6675e8;
+    margin-bottom: 10px;
+}
+
+/* Skills */
+#skills {
+    background-color: #eef0ff;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-list span {
+    background-color: white;
+    color: #3946a5;
+    border: 1px solid #d6dcff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skills-list span:hover {
+    background-color: #6675e8;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.skills-note {
+    text-align: center;
+    margin-top: 20px;
+    color: #626982;
+    font-size: 14px;
+}
+
+/* Projects */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(37, 43, 66, 0.08);
+    border-top: 4px solid #6675e8;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(37, 43, 66, 0.14);
+}
+
+.project-card h3 {
+    color: #3946a5;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    margin-bottom: 12px;
+}
+
+.tools {
+    font-size: 14px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin: 8px 10px 0 0;
+    color: #5263d8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Certifications */
+#certifications {
+    background-color: #eef0ff;
+}
+
+.certification-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.certification-card {
+    background-color: white;
+    padding: 22px;
+    border-radius: 8px;
+    border-left: 4px solid #6675e8;
+    box-shadow: 0 4px 15px rgba(37, 43, 66, 0.06);
+}
+
+.certification-card h3 {
+    color: #3946a5;
+    margin-bottom: 10px;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    background-color: white;
+}
+
+#resume p {
+    margin-bottom: 22px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    background-color: #252b42;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact p {
+    margin: 12px 0;
+    overflow-wrap: anywhere;
+}
+
+.contact a {
+    color: #a9b8ff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 18px;
+    background-color: #171b2c;
+    color: white;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 850px) {
+    nav {
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .project-container,
+    .certification-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+    section {
+        padding: 50px 6%;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home h3 {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .home-buttons .btn {
+        text-align: center;
+    }
+}
