@@ -1,94 +1,69 @@
 
-# Rajni Kumari | Portfolio
+# 🌐 Rajni Kumari — Developer Portfolio
 
-🌐 **Live Portfolio:** [Visit My Portfolio](https://rajnikumari-cse.github.io/portfolio/)
+Welcome to my personal portfolio! I am a **B.Tech Information Technology student at GJUS&T, Hisar**, interested in Frontend Development and Data Analytics. I enjoy building projects and learning new technologies.
 
-Welcome to my personal portfolio! 👋
+## 🚀 Live Portfolio
 
-# Rajni Kumari | Portfolio
-
-Welcome to my personal portfolio! 👋
-
-I am a B.Tech Information Technology student at Guru Jambheshwar University of Science and Technology, Hisar. I am interested in **Data Analytics and Frontend Development** and enjoy building practical projects while learning new technologies.
+🔗 **[Visit My Portfolio](https://rajnikumari-cse.github.io/portfolio/)**
 
 ## 👩‍💻 About Me
 
 - 🎓 B.Tech in Information Technology (2023–2027)
-- 📊 Interested in Data Analytics and data visualization
-- 💻 Learning and building projects in Frontend Development
-- 🚀 Focused on improving my technical skills through hands-on projects
+- 💻 Interested in Frontend Development and Data Analytics
+- 📊 Learning to analyze and visualize data using Python, Excel, and related tools
+- 🌱 Improving my JavaScript and development skills through hands-on projects
 
-## 🛠️ Technical Skills
+## 🛠️ Skills
 
 - **Programming:** Python, C, JavaScript (Basics)
-- **Data Analytics:** Pandas, Excel, Data Analysis, Data Visualization
-- **Web Development:** HTML, CSS
+- **Frontend:** HTML, CSS
+- **Data Analytics:** Python, Pandas, Excel, Matplotlib, CSV
 - **Tools:** Git, GitHub
 
-## 📂 My Projects
+## 📂 Featured Projects
 
 ### 1. Python Sales Data Analyzer
-Analyzed sales data to calculate total sales, average order value, top-selling products, and regional performance.
+Analyzes sales data using Python, Pandas, and Matplotlib to calculate sales summaries and identify top-performing products and regions.
 
-- **Technologies:** Python, Pandas, Matplotlib, CSV
-- [View Live Project](https://rajnikumari-cse.github.io/Python-Sales-Data-Analyzer/)
-- [View Source Code](https://github.com/rajnikumari-cse/Python-Sales-Data-Analyzer)
+🔗 [Live Project](https://rajnikumari-cse.github.io/Python-Sales-Data-Analyzer/)  
+🔗 [Source Code](https://github.com/rajnikumari-cse/Python-Sales-Data-Analyzer)
 
-### 2. Excel Sales Performance Dashboard
-Created a sales dashboard to summarize sales, order count, average order value, and high-value orders.
+### 2. Student Performance Dashboard
+A dashboard-style frontend project displaying student performance, attendance, and subject-wise statistics.
 
-- **Technologies:** Microsoft Excel, Charts, Dashboard
+🔗 [Live Project](https://rajnikumari-cse.github.io/student-performance-dashboard/)
 
-### 3. Student Performance Dashboard
-Designed a dashboard to display student performance, attendance, pass percentage, and subject-wise results.
+### 3. Foodie — Food Ordering Website
+A food website built using HTML and CSS, featuring navigation, food items, prices, and an order section.
 
-- **Technologies:** HTML, CSS
-- [View Live Project](https://rajnikumari-cse.github.io/student-performance-dashboard/)
+🔗 [Live Project](https://rajnikumari-cse.github.io/food-ordering-website/)  
+🔗 [Source Code](https://github.com/rajnikumari-cse/food-ordering-website)
 
-### 4. Foodie – Food Ordering Website
-Designed a food ordering website featuring navigation, food categories, menu items, prices, and an Order Now section.
+### 4. To-Do App
+A task management application with add, delete, and complete-task features, along with task counts and priority options.
 
-- **Technologies:** HTML, CSS
-- [View Live Project](https://rajnikumari-cse.github.io/food-ordering-website/)
+🔗 [Live Project](https://rajnikumari-cse.github.io/todo-app/)
 
-### 5. To-Do List App
-Built a task management application with task addition, completion tracking, deletion, and priority labels.
-
-- **Technologies:** HTML, CSS, JavaScript
-- [View Live Project](https://rajnikumari-cse.github.io/todo-app/)
+### 5. Excel Sales Dashboard
+An Excel-based dashboard for reviewing sales performance, order counts, and average order value.
 
 ### 6. Bat-Ball-Stump Game
-Developed a simple interactive game in which the user's choice is compared with the computer's choice.
-
-- **Technologies:** HTML, CSS, JavaScript
-- [View GitHub Profile](https://github.com/rajnikumari-cse)
+A beginner-friendly JavaScript game based on the Bat-Ball-Stump concept, featuring computer choices and win, lose, and tie results.
 
 ## 📜 Certifications & Training
 
-- **Ethical Hacking and Penetration Testing Virtual Internship** — C-DAC Noida, Cyber Gyan (July–August 2025)
-- **Web Development Course** — Scholiverse Educare / Skill India
-- **Frontend Engineer Learning Programme** — TechOtsu (August 2026)
-- **Career Readiness Training** — Training and Placement Cell, GJUST
+- **Cyber Gyan, C-DAC Noida:** Ethical Hacking and Penetration Testing Virtual Internship
+- **Scholiverse Educare / Skill India:** Web Development Course
+- **TechOtsu:** Frontend Engineer Learning Programme
+- **GJUS&T Training & Placement Cell:** Career Readiness Training
 
-## 🎓 Education
+## 📫 Connect With Me
 
-**B.Tech in Information Technology**  
-Guru Jambheshwar University of Science and Technology, Hisar, Haryana  
-2023–2027 | Currently pursuing
-
-## 📄 Resume
-
-My resume can be downloaded from the portfolio website using the **Download Resume** button.
-
-> Make sure the actual resume PDF is saved in the portfolio folder as `resume.pdf`.
-
-## 📬 Connect With Me
-
-- **Email:** [kumarirajni2408@gmail.com](mailto:kumarirajni2408@gmail.com)
-- **LinkedIn:** [Rajni Kumari](https://linkedin.com/in/rajni-kumari-7b0ba6431)
+- **LinkedIn:** [Rajni Kumari](https://www.linkedin.com/in/rajni-kumari-7b0ba6431/)
 - **GitHub:** [rajnikumari-cse](https://github.com/rajnikumari-cse)
+- **Email:** [kumarirajni2408@gmail.com](mailto:kumarirajni2408@gmail.com)
 
 ---
 
 ⭐ Thank you for visiting my portfolio!
-
