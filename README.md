@@ -1,6 +1,12 @@
 
 # Rajni Kumari | Portfolio
 
+🌐 **Live Portfolio:** [Visit My Portfolio](https://rajnikumari-cse.github.io/portfolio/)
+
+Welcome to my personal portfolio! 👋
+
+# Rajni Kumari | Portfolio
+
 Welcome to my personal portfolio! 👋
 
 I am a B.Tech Information Technology student at Guru Jambheshwar University of Science and Technology, Hisar. I am interested in **Data Analytics and Frontend Development** and enjoy building practical projects while learning new technologies.
